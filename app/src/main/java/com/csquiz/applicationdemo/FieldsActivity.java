@@ -27,7 +27,7 @@ public class FieldsActivity extends AppCompatActivity {
         Programming.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FieldsActivity.this , QuizActivity.class));
+                startActivity(new Intent(FieldsActivity.this , ProgrammingActivity.class));
             }
         });
 

@@ -29,9 +29,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/Password"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="120dp"
         android:text="LOGIN"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/Forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_below="@id/Password"
+        android:layout_marginTop="50dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="210dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"/>
+
 
 </RelativeLayout>
